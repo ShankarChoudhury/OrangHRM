@@ -1,2 +1,1 @@
-# OrangHRM
-OrangHRM
+# MavenProject
