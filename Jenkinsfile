@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Hello, Maven'
                 withMaven(maven : 'myMaven') {
-                    bat 'mvn clean'
+                    bat 'mvn test -DCucumber.options="- t @oneHRM"'
                 }
             }
         }
